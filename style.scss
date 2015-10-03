@@ -1,0 +1,32 @@
+// Variaveis
+$cor_topo: #eee;
+$cor_link: #000;
+
+// Encadeamento 
+#header{
+	font-size: 1em;
+	color: $cor_topo;
+	text-align: left;
+
+	a{
+		color: $cor_link;
+		text-decoration: none;
+		&:hover{
+			color: #cdcdcd;
+		}
+	}
+}
+
+// Mixin
+@mixin 	position($valor, $valorB){
+	display: block;
+	margin-left: $valor;
+	margin-right: $valorB;
+}
+
+#article{
+	@include position(10px, 20px);
+}
+
+// Terminal Real Time
+// sass --watch style.scss:style.css;

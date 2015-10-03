@@ -1,0 +1,16 @@
+#header {
+  font-size: 1em;
+  color: #eee;
+  text-align: left; }
+  #header a {
+    color: #000;
+    text-decoration: none; }
+    #header a:hover {
+      color: #cdcdcd; }
+
+#article {
+  display: block;
+  margin-left: 10px;
+  margin-right: 20px; }
+
+/*# sourceMappingURL=style.css.map */
